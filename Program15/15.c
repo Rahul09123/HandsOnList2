@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 14.c
+Name : 15.c
 Author : Rahul Raman
 Description : Write a simple program to create a pipe, write to the pipe, read from pipe and display on
                 the monitor.
