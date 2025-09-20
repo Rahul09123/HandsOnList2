@@ -1,6 +1,6 @@
 /*
 ========================================================================================================
-Name : Q24.c
+Name : 24.c
 Author : Rahul Raman
 Description : Write a program to create a message queue and print the key and message queue id.
 Date: 20 Sept, 2025.
