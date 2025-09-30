@@ -23,10 +23,9 @@ int main()
 {
     key_t key = ftok(".", 'a');
     int msqid = msgget(key, IPC_CREAT | 0666);
-
     struct msqid_ds st;
     msgctl(msqid, IPC_STAT, &st);
-
+    
     printf("Access Permission - %o \n", st.msg_perm.mode);
     printf("Uid and gid of owner are - %d %d \n", st.msg_perm.uid, st.msg_perm.gid);
     printf("Uid and gid of creator are - %d %d \n", st.msg_perm.cuid, st.msg_perm.cgid);

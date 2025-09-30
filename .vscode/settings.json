@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "types.h": "c",
+        "string.h": "c",
+        "ipc.h": "c"
+    }
+}

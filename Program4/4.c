@@ -23,8 +23,7 @@ int main() {
     int i;
 
     start = rdtsc();
-
-    // Execute getppid() 100 times
+    
     for (i = 0; i < 100; i++) {
         getppid();
     }
