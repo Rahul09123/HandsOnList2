@@ -38,6 +38,7 @@ int main() {
     return 0;
 }
 /*
+Output:
 asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/MT2025100(Rahul Raman)/HandsOnList2/Program20$ ./reader.out
 Reader: message Hello from writer
 */
