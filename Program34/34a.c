@@ -62,3 +62,9 @@ int main() {
     close(server_sock);
     return 0;
 }
+/*
+Output:
+s@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/MT2025100(Rahul Raman)/HandsOnList2/Program34$ ./34a
+Server listening on port 8088 (fork)...
+
+*/
