@@ -127,3 +127,19 @@ int main()
 
     return 0;
 }
+/*
+Output:
+asus@asus-TUF-Gaming-FX505DT-FX505DT:~/Desktop/MT2025100(Rahul Raman)/HandsOnList2/Program8$ ./a.out
+Choose an option:
+1.) SIGSEGV
+2.) SIGINT
+3.) SIGFPE
+4.) SIGALRM (alarm system call)
+5.) SIGALRM (setitimer system call)
+6.) SIGVTALRM (setitimer system call)
+7.) SIGPROF (setitimer system call)
+=> 4
+Alarm set
+Signal received (alarm related)
+
+*/
